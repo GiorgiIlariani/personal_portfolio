@@ -5,12 +5,12 @@ const Home = () => {
   return (
     <div id="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full pt-[150px] xs:pt-0">
         <p className="text-[#64ffda] text-xl">Hi, my name is</p>
-        <h1 className="text-[40px] sm:text-7xl font-bold text-[#ccd6f6] mt-2">
+        <h1 className="text-[40px] sm:text-7xl font-bold text-[#ccd6f6]">
           Giorgi Ilariani.
         </h1>
-        <h2 className="text-[50px] sm:text-7xl font-bold text-[#8892b0] mt-2">
+        <h2 className="text-[50px] sm:text-7xl font-bold text-[#8892b0]">
           I'm a Frontend Web developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] mt-2 text-xl">
