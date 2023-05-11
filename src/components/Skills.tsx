@@ -9,7 +9,9 @@ import Mui from "../assets/images/mui.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full h-auto bg-[#0a192f] text-gray-300">
+    <div
+      id="skills"
+      className="w-full pt-[150px] h-auto bg-[#0a192f] text-gray-300">
       {/* Container */}
       <div className="max-w-[1080px] mx-auto px-10 flex flex-col justify-center w-full h-full">
         <div>
