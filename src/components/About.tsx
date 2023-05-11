@@ -5,7 +5,7 @@ const About = () => {
     <div
       id="about"
       className="w-full pt-[150px] h-screen bg-[#0a192f] text-gray-300">
-      <div className="max-w-[1080px] mx-auto px-10 flex flex-col justify-center h-full">
+      <div className="max-w-[1080px] mx-auto px-5 flex flex-col justify-center h-full">
         <div className="flex items-center">
           <div className="text-[#64ffda] text-3xl">02.</div>
           <div className="text-[#ccd6f6] text-3xl ml-3 mr-5">About Me</div>

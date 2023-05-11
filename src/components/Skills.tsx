@@ -13,7 +13,7 @@ const Skills = () => {
       id="skills"
       className="w-full pt-[150px] h-auto bg-[#0a192f] text-gray-300">
       {/* Container */}
-      <div className="max-w-[1080px] mx-auto px-10 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1080px] mx-auto px-5 flex flex-col justify-center w-full h-full">
         <div>
           <div className="flex items-center">
             <div className="text-[#64ffda] text-3xl">03.</div>
