@@ -26,13 +26,13 @@ const About = () => {
               liked creating web sites and started developing as a frondent
               developer.
             </p>
-            {/* <p className="text-[#8892b0] text-[20px] mt-4">
+            <p className="text-[#8892b0] text-[20px] mt-4">
               First three-four months were really difficult, but time by time, I
               thought about success I could achieve in this field. After 5
               months, I started learning React and realized how much I loved
               working with it. At this moment I am focused on learning new
               things, for me learning new things means one step towards success.
-            </p> */}
+            </p>
           </div>
           <div className="relative my-8 hidden xs:block">
             <div className="rounded w-[350px] h-[350px] border-[3px] border-[#64ffda] absolute left-6 top-6 cursor-pointer" />
