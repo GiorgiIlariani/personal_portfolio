@@ -2,7 +2,9 @@ import my_photo from "../assets/images/my_photo.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      id="about"
+      className="w-full h-auto xs:h-screen bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
         <div className="flex items-center">
           <div className="text-[#64ffda] text-3xl">02.</div>
