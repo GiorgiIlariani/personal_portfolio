@@ -14,7 +14,7 @@ const Work = () => {
 
   return (
     <div id="work" className="w-full h-auto  text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto px-4 pt-[200px] flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1080px] mx-auto px-10 pt-[200px] flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <div className="flex items-center">
             <div className="text-[#64ffda] text-3xl">04.</div>
