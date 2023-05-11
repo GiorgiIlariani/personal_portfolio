@@ -6,7 +6,7 @@ import Weather_api from '../assets/images/Weather_api.png'
 import Grocery_bud_js from '../assets/images/Grocery_bud_js.png'
 import hooBank from '../assets/images/hooBank.png'
 import Covid_Questionary from '../assets/images/Covid_questionary.png'
-import Password_generator from '../assets/images/password_generator.png'
+import Password_generator from '../assets/images/Password_generator.png'
 
 
 
