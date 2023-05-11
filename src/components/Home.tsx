@@ -11,7 +11,7 @@ const Home = () => {
           Giorgi Ilariani.
         </h1>
         <h2 className="text-[50px] sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Frontend Web developer from Georgia.
+          I'm a Frontend Web developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] mt-2 text-xl">
           A Frontend focused Web Developer building the Frontend of Websites and
