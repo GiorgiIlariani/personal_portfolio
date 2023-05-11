@@ -1,4 +1,4 @@
-import { data } from "../data/data.ts";
+import { data } from "../data/work.ts";
 
 export interface ProjectItemProps {
   id: number;

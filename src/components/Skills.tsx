@@ -7,7 +7,16 @@ import Tailwind from "../assets/images/tailwind.png";
 import Typescript from "../assets/images/typescript.png";
 import Mui from "../assets/images/mui.png";
 
+import { data } from "../data/Skills";
+
+export interface SkillProps {
+  id: number;
+  img: string;
+  skill: string;
+}
+
 const Skills = () => {
+  const skills = data;
   return (
     <div
       id="skills"
@@ -26,38 +35,14 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid xs:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="html" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="css" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="javascript" />
-            <p className="my-4">JAVASCRIPT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="react" />
-            <p className="my-4">REACT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="github" />
-            <p className="my-4">GITHUB</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Typescript} alt="typescript" />
-            <p className="my-4">TYPESCRIPT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mui} alt="mui" />
-            <p className="my-4">MATERIAL UI</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="tailwind" />
-            <p className="my-4">TAILWIND</p>
-          </div>
+          {skills.map(({ id, img, skill }) => (
+            <div
+              className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+              key={id}>
+              <img className="w-20 mx-auto" src={img} alt="html" />
+              <p className="my-4">{skill}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
