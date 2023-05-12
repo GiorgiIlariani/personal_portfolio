@@ -1,4 +1,4 @@
-import { data } from "../data/work.ts";
+import { data } from "../data/Work.ts";
 
 export interface ProjectItemProps {
   id: number;
@@ -27,7 +27,7 @@ const Work = () => {
             will notice my progress in just one year. from below to top, you
             will see how I got better on every project. Here you will find
             projects which is fully responsive, however, there are projects
-            which is not responsive yest.
+            which is not responsive yet.
           </p>
         </div>
 
