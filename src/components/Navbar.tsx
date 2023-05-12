@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300 z-50">
+    <div className="fixed w-full xs:h-[80px] h-[70px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300 z-50">
       <div className="w-[40px] text-[#64ffda] cursor-pointer">
         <IconLoader />
       </div>
