@@ -1,14 +1,4 @@
-import HTML from "../assets/images/html.png";
-import CSS from "../assets/images/css.png";
-import JavaScript from "../assets/images/javascript.png";
-import ReactImg from "../assets/images/react.png";
-import GitHub from "../assets/images/github.png";
-import Tailwind from "../assets/images/tailwind.png";
-import Typescript from "../assets/images/typescript.png";
-import Mui from "../assets/images/mui.png";
-
 import { data } from "../data/Skills";
-
 export interface SkillProps {
   id: number;
   img: string;
