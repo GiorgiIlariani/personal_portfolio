@@ -1,4 +1,4 @@
-import my_photo from "../assets/images/my_photo.jpg";
+import me from "../assets/images/me.png";
 
 const About = () => {
   return (
@@ -37,11 +37,11 @@ const About = () => {
           <div className="relative my-8 hidden xs:block">
             <div className="rounded w-[350px] h-[350px] border-[3px] border-[#64ffda] absolute left-6 top-6 cursor-pointer" />
             <img
-              src={my_photo}
+              src={me}
               alt="my photo"
               className="rounded w-[350px] object-contain z-100 relative"
             />
-            <div className="absolute bg-[#64ffda] w-full h-full z-10 top-0 opacity-40 hover:opacity-0 duration-200" />
+            <div className="absolute bg-[#64ffda] w-full h-full z-10 top-0 opacity-50 hover:opacity-0 duration-200" />
           </div>
         </div>
       </div>
