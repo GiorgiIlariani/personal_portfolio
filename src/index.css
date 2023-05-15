@@ -6,10 +6,16 @@
 
 @layer base {
     li {
+        @apply list-none;
         @apply px-4;
         @apply cursor-pointer;
         @apply text-[22px];
     }
+
+    a {
+        @apply no-underline;
+    }
+
     html {
         font-family: 'Open Sans', sans-serif;    
     }

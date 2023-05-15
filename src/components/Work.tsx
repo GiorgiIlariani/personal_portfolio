@@ -17,8 +17,8 @@ const Work = () => {
       <div className="max-w-[1080px] mx-auto px-5 pt-[200px] flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <div className="flex items-center">
-            <div className="text-[#64ffda] text-3xl">04.</div>
-            <div className="text-[#ccd6f6] text-4xl ml-3 mr-5">work</div>
+            {/* <div className="text-[#64ffda] text-3xl">04.</div> */}
+            <div className="text-[#64ffda] text-4xl mr-5">work</div>
             <div className="border border-[#233554] w-[350px] hidden sm:block"></div>
           </div>
           <p className="py-6 text-xl">// Check out some of my recent work</p>

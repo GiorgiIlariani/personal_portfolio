@@ -18,7 +18,7 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <span className="text-[#64ffda]">01.</span>{" "}
+          {/* <span className="text-[#64ffda]">01.</span>{" "} */}
           <Link
             to="home"
             smooth={true}
@@ -28,7 +28,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <span className="text-[#64ffda]">02.</span>{" "}
+          {/* <span className="text-[#64ffda]">02.</span>{" "} */}
           <Link
             to="about"
             smooth={true}
@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <span className="text-[#64ffda]">03.</span>{" "}
+          {/* <span className="text-[#64ffda]">03.</span>{" "} */}
           <Link
             to="skills"
             smooth={true}
@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <span className="text-[#64ffda]">04.</span>{" "}
+          {/* <span className="text-[#64ffda]">04.</span>{" "} */}
           <Link
             to="work"
             smooth={true}
@@ -58,7 +58,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <span className="text-[#64ffda]">05.</span>{" "}
+          {/* <span className="text-[#64ffda]">05.</span>{" "} */}
           <Link
             to="contact"
             smooth={true}

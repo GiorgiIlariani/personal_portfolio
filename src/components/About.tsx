@@ -7,8 +7,8 @@ const About = () => {
       className="w-full pt-[150px] h-screen bg-[#0a192f] text-gray-300">
       <div className="max-w-[1080px] mx-auto px-5 flex flex-col justify-center h-full">
         <div className="flex items-center">
-          <div className="text-[#64ffda] text-3xl">02.</div>
-          <div className="text-[#ccd6f6] text-3xl ml-3 mr-5">About Me</div>
+          {/* <div className="text-[#64ffda] text-3xl">02.</div> */}
+          <div className="text-[#64ffda] text-4xl mr-5">About me</div>
           <div className="border border-[#233554] w-[350px] hidden sm:block"></div>
         </div>
 

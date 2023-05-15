@@ -71,8 +71,8 @@ const Contact = () => {
         autoComplete="off">
         <div className="pb-8">
           <div className="flex items-center">
-            <div className="text-[#64ffda] text-3xl">05.</div>
-            <div className="text-[#ccd6f6] text-4xl ml-3">Contact</div>
+            {/* <div className="text-[#64ffda] text-3xl">05.</div> */}
+            <div className="text-[#64ffda] text-4xl ">Contact</div>
           </div>
           <p className="text-gray-300 py-4 text-xl mt-2">
             // Submit the form below
