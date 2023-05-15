@@ -15,7 +15,7 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] mt-2 text-xl">
           A Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product
+          Web Applications that leads to the success of the overall product.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
