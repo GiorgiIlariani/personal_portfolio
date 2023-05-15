@@ -23,7 +23,7 @@ const About = () => {
               It all started with Bitcamp(a group that brings together web
               developers). I started learning Html, Css and Javascript concepts
               for the first time. After that, I gradually realized how much I
-              liked creating web sites and started developing as a frondent
+              liked creating web sites and started developing as a frontend
               developer.
             </p>
             <p className="text-[#8892b0] text-[20px] mt-4">
